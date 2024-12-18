@@ -2,8 +2,8 @@ import java.sql.*;
 
 public class App {
         private static final String URL = "jdbc:mysql://localhost:3306/random";
-        private static final String USER = "root";
-        private static final String PASSWORD = "Jaihanuman@10";
+        private static final String USER = "user_name";
+        private static final String PASSWORD = "enter_your_password";
         private Connection conn;
     
         public App() throws SQLException, ClassNotFoundException {
